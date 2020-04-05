@@ -1,0 +1,50 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+      width:100%;
+    }
+    .top-wrapper h2 {
+      font-size: 20px;
+    }
+    .left-logo {
+      
+      height:14%;
+    }
+    .right-logo {
+      height: 12%;
+    }
+    
+    
+}
+  
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+    
+    .top-wrapper {
+      width: 100%;
+      text-align: left;
+    }
+    .circle-logo {
+      position: fixed;
+      display: none;
+    }
+    /* Add CSS for header-right */
+    .header-right li {
+    font-size: 20%;
+   }
+  
+    .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+    }
+  
+    .top-wrapper h2 {
+    font-size: 14px;
+    line-height: 20px;
+    }
+ }
+
+  
